@@ -2,10 +2,234 @@
     box-sizing: border-box;
 }
 
-h1{
-    font-size: large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 10px;
-    border: 5px;
-    margin-block-start: 200px;
+#mainmenu{
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:cursive;
+    font-style: normal;
+    text-align: center;
 }
+
+
+div.container{
+    background-color:white;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+}
+div#id1{
+
+    background-color:grey;
+    position: relative;
+    margin:5px;
+    padding:10px;
+    border: 1px solid black;
+
+}
+div#id2{
+ 
+    background-color:grey;
+    position: relative;
+    margin:5px;
+    padding:10px;
+    border: 1px solid black;
+}
+div#id3{
+    background-color:grey;
+    position: relative;
+    margin:5px;
+    padding:10px;
+    border: 1px solid black;
+}
+
+p{
+font-size: 12px;
+font-family: 'Courier New', Courier, monospace;
+height: 150px;
+width: 90%;
+}
+
+#chicken{
+    background-color: pink;
+    opacity: 75%;
+    position:absolute;
+    font-size: 15px;
+    font-weight:bolder;
+    top: 1px;
+    right: 0px;
+    border: 1px black solid;
+    width: 150px;
+    text-align: center;
+}
+#beef{
+    font-size: 15px;
+    background-color: red;
+    opacity: 75%;
+    font-weight:bolder;
+    position:absolute;
+    top: 1px;
+    right: 0px;
+    border: 1px black solid;
+    width: 150px;
+    text-align: center;
+}
+#sushi{
+    font-size: 15px;
+    background-color: yellow;
+    opacity: 75%;
+    font-weight:bolder;
+    position:absolute;
+    top: 1px;
+    right: 0px;
+    border: 1px black solid;
+    width: 150px;
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+/********* For Desktop ************/
+
+@media (min-width: 992px) 
+{
+    .col_lg_1, .col_lg_2, .col_lg_3, .col_lg_4, .col_lg_5, .col_lg_6, .col_lg_7, .col_lg_8, .col_lg_10, .col_lg_11, .col_lg_12 
+    {
+        float: left;
+    }
+    .col_lg_1{
+        width:8.33%;
+    }
+    .col_lg_2{
+        width:16.66%;
+    }
+    .col_lg_3{
+        width: 25%;
+    }
+    .col_lg_4{
+        width: 33%;
+    }
+    .col_lg_5{
+        width:45.66%;
+    }
+    .col_lg_6{
+        width: 50%;
+    }
+    .col_lg_7{
+        width: 58.33%;
+    }
+    .col_lg_8{
+        width:66.66%;
+    }
+    .col_lg_9{
+        width:75%;
+    }
+    .col_lg_10{
+        width:83.33%;
+    }
+    .col_lg_11{
+        width:91.66%;
+    }
+    .col_lg_12{
+        width: 100%;
+    }
+}
+
+/********* For Tablet ************/
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    .col_md_1, .col_md_2, .col_md_3, .col_md_4, .col_md_5, .col_md_6, .col_md_7, .col_md_8, .col_md_10, .col_md_11, .col_md_12 
+    {
+        float: left;
+    }
+    .col_md_1{
+        width:8.33%;
+    }
+    .col_md_2{            
+        width:16.66%;
+    }
+    .col_md_3{
+        width: 25%;
+    }        
+    .col_md_4{          
+        width: 33%;
+    } 
+    .col_md_5{ 
+        width:45.66%;
+    }
+    .col_md_6{
+        width: 50%;
+    }           
+    .col_md_7{
+        width: 58.33%;
+    }
+    .col_md_8{
+        width:66.66%;
+    }            
+    .col_md_9{            
+        width:74.99%;
+    }
+    .col_md_10{
+        width:83.33%;
+    }
+    .col_md_11{
+        width:91.66%;
+    }
+    .col_md_12{
+        width: 92.5%;
+    }
+        
+}
+
+
+/********* For Mobile ************/
+@media (max-width: 767px)
+{
+    .col_sm_1,.col_sm_2,.col_sm_3,.col_sm_4,.col_sm_5,.col_sm_6,.col_sm_7,.col_sm_8,.col_sm_10,.col_sm_11,.col_sm_12
+    {
+        float: left;      
+     }
+        .col_sm_1{
+            width:8.33%;
+        }
+        .col_sm_2{            
+            width:16.66%;
+        }
+        .col_sm_3{
+            width: 25%;
+        }        
+        .col_sm_4{          
+            width: 33%;
+        } 
+        .col_sm_5{ 
+            width:45.66%;
+        }
+        .col_sm_6{
+            width: 50%;
+        }           
+        .col_sm_7{
+            width: 58.33%;
+        }
+        .col_sm_8{
+            width:66.66%;
+        }            
+        .col_sm_9{            
+            width:74.99%;
+        }
+        .col_sm_10{
+            width:83.33%;
+        }
+        .col_sm_11{
+            width:91.66%;
+        }
+        .col_sm_12{
+            width: 92.5%;
+        }
+            
+    }
